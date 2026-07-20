@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "BrandVoice Pro",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0A66FF",
+    "light": "#4D8BFF",
+    "dark": "#0A4BCC"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,20 +14,46 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "quickstart"
+          "quickstart",
+          "speak-method"
+        ]
+      },
+      {
+        "group": "Using BrandVoice Pro",
+        "pages": [
+          "using/brand-profiles",
+          "using/personalizing-content",
+          "using/social-posts",
+          "using/seo-extras"
+        ]
+      },
+      {
+        "group": "Plans & Billing",
+        "pages": [
+          "plans/plans-and-pricing",
+          "plans/generations-explained",
+          "plans/beta-and-grandfathering",
+          "plans/billing"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "help/faq",
+          "help/troubleshooting"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Open the App",
+          "href": "https://app.brandvoiceproapp.com",
+          "icon": "arrow-up-right-from-square"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://brandvoiceproapp.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -41,13 +67,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@brandvoiceproapp.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Start Free",
+      "href": "https://app.brandvoiceproapp.com"
     }
   },
   "contextual": {
@@ -56,17 +82,24 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "perplexity"
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "links": [
+      {
+        "header": "BrandVoice Pro",
+        "items": [
+          {
+            "label": "Home",
+            "href": "https://brandvoiceproapp.com"
+          },
+          {
+            "label": "Open the App",
+            "href": "https://app.brandvoiceproapp.com"
+          }
+        ]
+      }
+    ]
   }
 }
