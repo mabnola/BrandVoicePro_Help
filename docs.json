@@ -78,11 +78,7 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity"
+      "view"
     ]
   },
   "footer": {
