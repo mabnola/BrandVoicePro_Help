@@ -42,6 +42,13 @@
           "help/faq",
           "help/troubleshooting"
         ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog/overview",
+          "changelog/2026-08-02"
+        ]
       }
     ],
     "global": {
