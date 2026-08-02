@@ -1,0 +1,18 @@
+---
+title: "Week of August 2, 2026"
+description: "Rate limits added to protect accounts and keep the app responsive."
+---
+
+## Updates
+
+**Rate limits on sensitive actions**
+
+To protect your account and keep the app responsive for everyone, a small number of actions are now capped per short time window:
+
+- **Password reset** — up to 3 requests per 15 minutes for the same email address. Guards your inbox against reset-email flooding.
+- **Sign in** — up to 10 attempts per 15 minutes for the same email address. Leaves ample room if you fumble your password, and cuts down on automated guessing.
+- **SEO title generation** — up to 5 requests per minute per user. Prevents runaway usage while you iterate.
+
+If you hit a limit, you'll see a message asking you to try again shortly. Normal use is unaffected.
+
+See [Troubleshooting](/help/troubleshooting) if you run into a "try again later" message unexpectedly.
